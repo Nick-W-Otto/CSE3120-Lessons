@@ -1,3 +1,1 @@
-# CSE3120-Lessons
-
-object oriented programming 1
+# CSE3120- Object-Oriented Programming 1
