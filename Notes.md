@@ -18,7 +18,7 @@ An _attribute_ is a property or characteristic an object possess. Each object ca
 
 A _behaviours_ is a action that can be performed on a object. Behaviours are formally called methods and are written the same as a function. Therefore, methods can also accept arguments into their parameters and return values.
 
-* One major advantage to methods is that they automatically have acess to all attributes within the object, Therefore, object attributes neither need to be passed as an argument. Nor Goballed into the method
+* One major advantage to methods is that they automatically have access to all attributes within the object, Therefore, object attributes neither need to be passed as an argument. Nor Goballed into the method
 * Methods always have at least one argument. ```self```, which indicates that the function references the current object
     *__Constructors__ are methods that provide the object with default set of attributes. In python, it is ```self.init(self)```. Constructors create the object from the class template with values within the attributes. The constructor can have arguments that are passed to the object's attributes. Other attributes can be defaulted of the class
      *In general, all attributes of the object should be present in the constructor even if their default value is None.
@@ -51,4 +51,11 @@ As with many methodologies, there is a right way and wrong way to follow the met
 * The Setter and Getter methods are the buttons on the interface 
 
 2.) __Abstraction__ is the process of setting the level of detail and complexity for wat is appropriate for the given task
-    * A Driver only needs to interact with the steering, accelerator, and brakes of the car to drive, But a mechanic has a much more complex understanding of the car in order to repair and maintain it. Therefore the mechanic's abstraction of the car is more complex. 
+    * A Driver only needs to interact with the steering, accelerator, and brakes of the car to drive, But a mechanic has a much more complex understanding of the car in order to repair and maintain it. Therefore, the mechanic's abstraction of the car is more complex. 
+
+3.) __Aggregation__ This the process of grouping objects together. Objects exist independently of each-other, but changing one does not change the other of the group 
+
+4.) __Composition__ Is the process of creating a complex object by creating several objects together 
+    * A car is composed of an engine, transmission, starter, headlights, windshield, etc. Each of the car's objects have attributes and behaviours such as the engine's pistons, values and crack shaft/ If the car is missing an object from its composition the car no longer functions 
+    * All Compositions are Aggregations but not all Aggregations are Compositions. Compositions have interdependence between aggregate objects. 
+ 
