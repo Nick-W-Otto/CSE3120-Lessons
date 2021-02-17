@@ -13,7 +13,7 @@ class Die:
     TO MAKE A DIE OBJECT
     """
 
-    def __init__(self, MAX_VALUE):
+    def __init__(self, MAX_VALUE = 6):
         """
         Make a 6-sided die object
         :parameter:

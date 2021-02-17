@@ -34,8 +34,8 @@ class Die:
 An __Object__ is a unique set of data and functions instantiated from a class An object assesses attribute and methods using _Dot notation_. which identifies the object, then the attribute or value
 
 ```python
-<object>.<attribute> ==> VALUE
-<object>.<method>(parameters) ==> runs the method
+<object>.<"attribute"> ==> "VALUE"
+<object>.<"method">'parameters' ==> "runs the method"
 ```
 
 ### Overloading Methods(IB)
@@ -44,6 +44,25 @@ Methods can be overloaded where they have the same name but different parameters
 ### God/System objects
 
 As with many methodologies, there is a right way and wrong way to follow the methodology. For example, using only global variables in functional programming making it more similar to structural programming. Similarly, writing a program with only class/object. results in a program similar to functional programming.
+
+## Unified Modeling Language (UML)
+
+A standardized modeling language unifying notational systems and approaches to data management amd software design. This language is programming agnostic and does not require a programming background to utilize. It is composed of three main diagram types: structure, behaviour and interactions 
+
+A Class diagram is a common structure diagram. It contains the name, the attributes and methods of class
+
+| Bank Account ||
+| --- | --- |
+| _Attribute/Method_ | _Value_ |
+| ---------------------- | --------|
+| Account Number | Int |
+| Owner | String |
+| Balance | Float |
+| Withdraw( Float ) | Float |
+| Deposit     ( Float ) | Receipt (Obj)
+| Delete | Float | 
+| Get Balance | Float |
+
 
 ## Why OOP?
 1.) __Encapsulation__ is the process of protecting or hiding data throughout the use of an _interface_ The interface is often a collection of methods, such as setter(Modifier) and Getter(Accessors) Methods, that other objects can interact with. 
