@@ -5,7 +5,7 @@ Date: 2021. 02, 18
 """
 
 from card import Card
-
+from deckpy import Deck
 
 class Player:
     """
