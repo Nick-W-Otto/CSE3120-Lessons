@@ -6,9 +6,8 @@ Date Created: 2021, 02, 17
 
 from a_die import Die
 
-"""
-Players have six dice. They take turns rolling the dice, holding at least one die per roll. Each round a player rolls up to three times. Various combination are worth points
-"""
+"""Players have six dice. They take turns rolling the dice, holding at least one die per roll. Each round a player 
+rolls up to three times. Various combination are worth points """
 
 class Player:
     """
